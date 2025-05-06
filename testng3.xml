@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Integration">
+    <classes>
+      <class name="lesson1.test1"/>
+      <class name="lesson1.test2"/>
+    </classes>
+  </test>
+    
+    <test name="Regression">
+    <classes>
+      <class name="lesson1.test3">
+      <methods>
+      <exclude name="OpenEnrollment7"/>
+      </methods>
+      </class>
+    </classes> 
+  </test>
+
+</suite> <!-- Suite -->

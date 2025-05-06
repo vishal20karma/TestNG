@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Annual Enrollment">
+    <classes>
+      <class name="lesson1.test5">
+     <methods>
+     <include name="FSA.*"/>
+     </methods>
+      </class>
+      
+      <class name="lesson1.test6">
+      <methods>
+      <exclude name="Life.*"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
