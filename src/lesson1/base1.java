@@ -4,7 +4,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class base1 {
-
+// Always should be methods to process execution
  public void doThis()   {
  System.out.println("Lets do calculations"); 
  }
